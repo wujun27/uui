@@ -1,0 +1,8 @@
+version: '2'
+services:
+    myoauth-sonar:
+        container_name: myoauth-sonar
+        image: sonarqube:6.1-alpine
+        ports:
+            - 9000:9000
+            - 9092:9092
